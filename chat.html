@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/pl-style.css">
+    <title>Chat</title>
+    <link rel="icon" href="assets/img/chat.png" type="img/x-icon">
+</head>
+<body class="chat-body">
+    <header>
+        <nav class="navbar">
+            <div class="brand-chat-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="chat-main">
+        <h2>Welcome to My Chat </h2>
+
+        <div class="chat-container">
+
+           <div class="chat-sms">
+
+                <div class="exp"> Hello Anar <span>22:00 <i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> Hi Jena <span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> How are things? <span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> Everything is OK <span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> We need some information about your specialty <span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> Come on please <span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> We have looked at your portfolio.<span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> ok later<span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> I think we can work with you <span>22:00<i class="fa-solid fa-check-double"></i></span> </div>
+                <div class="exp"> This is good news:) <span>22:00<i class="fa-solid fa-check-double"></i></span> </div> 
+            
+            </div>
+            <div class="chat-button">
+                
+                <div class="chat-popup" id="myForm">
+                    
+                    <form action="/action_page.php" class="form-container">
+                        
+                        <h1>Chat</h1>
+                        <label for="msg"><b>Message</b></label>
+                        <textarea placeholder="Type message.." name="msg" required></textarea>
+                        <button type="submit" class="btn">Send</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        
+                    </form>
+                </div>
+                <button class="open-button" id="open-button" onclick="openForm()">Chat</button>
+            </div>
+            
+        </div>
+    </main>
+    <script src="assets/js/pl.js"></script>
+</body>
+</html>
