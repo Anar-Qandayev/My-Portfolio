@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/css/pl-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>Portfolio</title>
@@ -19,8 +19,8 @@
     </a>
 
     <header>
-        <nav class="navbar">
-            <div class="brand-title"><h2>Anar Gandayev</h2></div>
+        <nav>
+            <h2>Anar Gandayev</h2>
             <a href="#" class="toggle-button">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -28,16 +28,16 @@
             </a>
             <div class="navbar-links">
                 <ul>
-                    <li><a href="#one">Home</a></li>
-                    <li><a href="#two">Education</a></li>
-                    <li><a href="#three">Skills</a></li>
-                    <li><a href="#four">Contact</a></li>
+                    <li><a href="#introduction">Home</a></li>
+                    <li><a href="#edu-info">Education</a></li>
+                    <li><a href="#it-info">Skills</a></li>
+                    <li><a href="#contact-info">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="section one" id="one">
+        <section  id="introduction">
             <img src="assets/img/img-2.jfif" alt="">
             <div class="my-text">
                 <h1>Anar Gandayev</h1>
@@ -51,10 +51,10 @@
                 </p>
             </div>
         </section>
-        <section class="section two" id="two">
+        <section  id="edu-info">
             <div class="e-name">
-                <h2 style="display: flex;"><i class="fa-solid fa-graduation-cap" style="margin: 10px;"></i> Education</h2>
-                <hgroup class="hgroup">
+                <h2 style="display: flex;"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                <hgroup >
                     <h3>Master's degree</h3>
                     <h3>Bachelor degree</h3>
                     <h3>School</h3>
@@ -75,23 +75,27 @@
                 </p>
             </div>
         </section>
-        <section id="three">
+        <section id="it-info">
             <div class="slide-container">
-                <div class="slide-content">
                     <div class="card-wapper">
                         <div class="card">
                             <div class="image-content">
                                 <span class="overlay"></span>
                                 <div class="card-image">
-                                    <img src="assets/img/html-5.png" alt="" class="card-img">
+                                    <img src="assets/img/html-5.png" >
                                 </div>
                             </div>
                             <div class="card-content">
-                                <h2 class="name">HTML</h2>
-                                <p class="description">
-                                    You can learn more about my HTML knowledge here
+                                <h2>HTML</h2>
+                                <p>
+                                    Thanks to Ingress Academy, I have acquired a high level 
+                                    of HTML knowledge. In this training program, tags, 
+                                    attributes, classes, ids and other elements that are 
+                                    often used in HTML are taught. The training program is 
+                                    taught by Farid Yusifzade. You can learn 
+                                    my HTML knowledge through the GitHub link I have posted below.
                                 </p>
-                                <a href="i-html.html" target="_blank"><button class="button">View More</button></a>
+                                <a href="https://github.com/Anar-Qandayev/IngressTask1.git" target="_blank"><button>HTML File</button></a>
                             </div>
                         </div>
                         <div class="card">
@@ -102,11 +106,17 @@
                                 </div>
                             </div>
                             <div class="card-content">
-                                <h2 class="name">CSS</h2>
-                                <p class="description">
-                                    You can learn more about my CSS knowledge here
+                                <h2 >CSS</h2>
+                                <p >
+                                    Thanks to Ingress Academy, I have acquired a high level  
+                                    of CSS knowledge. In this training program, you can learn  
+                                    attribute, element, class and id calls in CSS, important  
+                                    CSS properties such as position, flex, font, background, 
+                                    etc. and CSS structure. The training program is taught by 
+                                    Farid Yusifzade.  You can learn my CSS knowledge through  
+                                    the GitHub link I have posted below.
                                 </p>
-                                <a href="i-css.html" target="_blank"><button class="button">View More</button></a>
+                                <a href="https://github.com/Anar-Qandayev/IngressTask6.git" target="_blank"><button>CSS File</button></a>
                             </div>
                         </div>
                         <div class="card">
@@ -117,18 +127,21 @@
                                 </div>
                             </div>
                             <div class="card-content">
-                                <h2 class="name">JS</h2>
-                                <p class="description">
-                                    You can learn more about my Javascript knowledge here
+                                <h2 >JS</h2>
+                                <p >
+                                    Thanks to Ingress Academy, I have acquired a high level of 
+                                    Javascript knowledge. In this training program, the elements, 
+                                    functions, JS structure, etc. used in Javascript are taught. 
+                                    The training program is taught by Farid Yusifzadeh. You can 
+                                    learn my Javascript knowledge through the GitHub link posted below.                        
                                 </p>
-                                <a href="i-js.html" target="_blank"><button class="button">View More </button></a>
+                                <a href="https://github.com/Anar-Qandayev/Responsive-Header.git" target="_blank"><button >Javascript File</button></a>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </section>
-        <section class="section four" id="four">
+        <section  id="contact-info">
             <div class="contact-img">
                 <img src="assets/img/contact-img.webp" alt="">
             </div>
@@ -139,7 +152,7 @@
                     you can contact me through my contact number or my 
                     e-mail address. The address is listed on the page.
                 </p>
-                <hgroup class="loc-cont">
+                <div class="loc-cont">
                     <p>
                         Address: 92 A Hasan bey Zardabi St, Bakı Azerbaijan
                     </p>
@@ -147,13 +160,13 @@
                         Tel:055-854-08-33 
                         E-mail: anarqandayev8899@gmail.com
                     </p>
-                </hgroup>
-                <hgroup class="contact-input">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                </hgroup>
-                <textarea class="textarea"  cols="30" rows="10" placeholder="Message"></textarea>
-                <button class = "submit" type="submit"><a href="#">Submit</a></button>
+                </div>
+                <div class="contact-input">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <textarea class="textarea" required  cols="30" rows="10" placeholder="Message"></textarea>
+                <a href="#introduction"><button type="submit">Submit</button></a>
             </div>
         </section>
         
